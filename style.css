@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: martian Mono;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+section {
+    border: 2px solid #a2a2a6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Syncopate;
+    font-size: 75px;
+}
+
+nav {
+    margin: 0px 10%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #d9e7ff;
+}
+
+h1.section-heading {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.palette {
+    display: inline-flex;
+}
+
+.color {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+}
+
+.celeste {
+    background-color: #9CFFFA;
+}
+
+.light-green {
+    background-color: #ACF39D;
+}
+
+.olivine {
+    background-color: #B0C592;
+}
+
+.burnished-brown {
+    background-color: #a97c73;
+}
+
+.english-red {
+    background-color: #AF3E4D;
+}
+
+.black-coral {
+    background-color: #696D7D;
+}
+
+.wintergreen-dream {
+    background-color: #6F9283;
+}
+
+.artichoke {
+    background-color: #8D9F87;
+}
+
+.sage {
+    background-color: #CDC6A5;
+}
+
+.almond {
+    background-color: #F0DCCA;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.cornflower-blue {
+    background-color: #7F95D1;
+}
+
+.tickle-me-pink {
+    background-color: #FF82A9;
+}
+
+.spanish-pink {
+    background-color: #FFC0BE;
+}
+
+.misty-rose {
+    background-color: #FFEBE7;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.exo {
+    font-family: Exo;
+}
+
+.kalam {
+    font-family: Kalam;
+}
+
+.fira-mono {
+    font-family: Fira Mono;
+}
+
+p.regular {
+    font-weight: normal;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.medium {
+    font-weight: 500;
+}
+
+#textstyles {
+    font-family: Fira Mono;
+
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Fira Mono;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 23px;
+    font-family: Fira Mono;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Fira Mono;
+}
