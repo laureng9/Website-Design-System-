@@ -71,6 +71,7 @@ h1.section-heading {
 
 .palette {
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .color {
